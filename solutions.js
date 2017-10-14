@@ -34,8 +34,8 @@ let postUpdate = document.getElementsByClassName('post')[3];
 let textUpdate = postUpdate.getElementsByTagName('p')[0];
 textUpdate.innerHTML = 'Ruby and JavaScript are amazing!';
 // Exercise: Find the first post and add the `.post-liked` class to it.
-31	let firstPost = document.getElementsByClassName('post')[0];
-firstPost.className = firstPost.className + ' post-linked';
+let firstPost = document.getElementsByClassName('post')[0];
+firstPost.className = firstPost.className + ' post-liked';
 // Exercise: Find the second post and remove the `.post-liked` class.
 let firstPost = document.getElementsByClassName('post')[0];
-firstPost.classList.remove('post-linked');: Use `setAttribute` to change `src` attribute of one of the ads in the sidebar.
+firstPost.classList.remove('post-liked');: Use `setAttribute` to change `src` attribute of one of the ads in the sidebar.
